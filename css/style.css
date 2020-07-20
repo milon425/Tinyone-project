@@ -5,7 +5,7 @@ body {
 header {
   background-color: #FDDC01;
   padding: 50px 0;
-  height: 90vh; }
+   }
   header .navbar-light .navbar-nav li {
     font-size: 22px;
     font-weight: 700; }
@@ -33,7 +33,7 @@ header {
       color: #010101; }
   header .slider .carousel-inner .carousel-item .phone {
     text-align: end;
-    padding: 70px 0 105px; }
+    margin: 55px 0; }
 
 .feature-section {
   padding: 100px 0; }
