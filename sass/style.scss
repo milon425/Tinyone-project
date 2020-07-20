@@ -1,0 +1,367 @@
+@import "__variable";
+@import "__default";
+
+
+
+
+
+header{
+	background-color: $primary_color;
+	    padding: 50px 0;
+	    height: 90vh;
+
+	
+	.navbar-light {
+
+		.navbar-nav{
+			
+				
+						li{
+							font-size: 22px;
+							font-weight: 700;
+							.nav-link {
+							    color: $secondary_color;
+							    
+								}
+						}
+
+					}
+
+	}
+
+.slider {
+	.carousel-indicators li{
+		border-radius: 50%;
+		width: 15px;
+		height: 15px;
+	}
+
+	h1{
+		font-weight: 800;
+		font-size: 37px;
+	}
+
+	h5{
+		    font-size: 22px;
+		    opacity: .8;
+		    font-weight: 400;
+		    padding: 12px 0;
+		
+	}
+	p{
+		    font-size: 16px;
+   			 opacity: .7;
+	}
+
+
+	.icon{font-size: 40px;
+
+		.nav{
+
+			li{
+
+				a{
+
+					i{padding-right: 36px;
+						color: $secondary_color;
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+.slider .carousel-inner .carousel-item .phone {
+    text-align: end;
+    padding: 70px 0 105px;
+}
+
+}
+
+.feature-section{
+
+	padding: 100px 0;
+
+		h1{
+		text-align: center;
+		font-weight: 700;
+	}
+	span {
+
+		text-align: center;
+		font-size: 19px;
+		opacity: .9;
+		margin: auto;
+		margin-bottom: 85px;
+	}
+
+
+	.font-custom{
+		padding: 50px 0;
+
+	
+
+	i{
+		font-size: 45px;
+		padding-right: 20px;
+	}
+	h2{
+		font-size: 27px;
+	}
+	}
+}
+
+
+.submit-section{
+
+	background-color: $secondary_color;
+	padding: 100px 0;
+
+	
+
+
+	.part-one{
+		text-align: center;
+		
+		h1{
+			color: $primary_color;
+		}
+		p{
+			color: #ffffffb3;
+    		font-size: 19px;
+    		width: 90%;
+		    margin: auto;
+		    padding: 25px 0;
+			}
+
+
+			.custom-form{
+
+				padding-left: 100px;
+
+
+				.inpur-custom{
+					width: 70%;
+					.label-custom{
+						height: 54px;
+
+
+					}
+					
+
+				
+				}
+				.submit{
+					width: 30%;
+
+				}
+			
+
+			.btn-custom{
+				background-color: $primary_color;
+				
+				
+				color: $secondary_color;
+				font-size: 18px;
+				font-weight: 500;
+				height: 54px;
+				width: 150px;
+
+				&:hover{
+					background-color: #fff;
+					color: $primary_color;
+				}
+			}
+
+
+			}
+
+			.logo{
+
+				.nav{
+
+					li{
+
+						a{margin-right: 28px;
+							i{padding-top: 36px;
+							color: $primary_color;
+							font-size: 40px;
+
+
+
+							}
+
+
+						}
+
+					}
+
+				}
+
+			}
+
+
+		}
+
+	.footer-section{
+
+		margin-top: 100px;
+		color: #fff;
+		.nav{
+			flex-direction: column;
+		}
+
+	}
+
+}
+
+
+
+
+
+@media (max-width: 1199px){
+
+
+
+}
+
+
+@media (max-width: 991px){
+
+	.navbar-nav{
+		flex-direction: row;
+		justify-content: center;
+
+		.nav-link{
+			padding: 0 25px;
+
+		}
+
+		}
+
+	header .slider h1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+header  .slider .carousel .carousel-inner .carousel-item h5 {
+    font-size: 18px; 
+    padding: 7px 0;
+
+
+	}
+
+	header .slider p {
+    font-size: 14px;
+    opacity: .7;
+}
+
+.phone .img-fluid {
+    max-width: 70%;
+    height: auto;
+}
+.submit-section .part-one .custom-form {
+    padding-left: 0;
+}
+
+}
+
+
+@media (max-width: 767px){
+
+header .slider .carousel .carousel-inner .carousel-item h5 {
+    font-size: 17px;
+    padding: 2px 0;
+}
+
+header .slider p {
+    font-size: 12px;
+    
+}
+header .slider .icon {
+    font-size: 35px;
+}
+header {
+    
+    padding: 5px 0;
+    height: 70vh;
+}
+
+.feature-section h1 {
+    
+    font-weight: 600;
+    font-size: 32px;
+}
+.feature-section span {
+    
+    font-size: 17px;}
+    .submit-section .part-one .custom-form {
+    padding-left: 0;
+}
+.submit-section .part-one .custom-form {
+    padding-left: 0;
+}
+
+}
+
+
+@media (max-width: 591px){
+	header {
+    padding: 5px 0;
+    height: 85vh;
+}
+
+header .navbar-light .navbar-nav li {
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: auto;
+}
+	.slider .carousel-inner .row{
+		text-align: center;
+	}
+	header .slider .carousel .icon ul{
+		justify-content: center;
+	}
+header .slider .carousel-inner .carousel-item .phone {
+    text-align: center;
+    padding: 60px 0 0px;
+}
+
+.carousel-indicators {
+    
+    bottom: -80px;}
+    .phone .img-fluid {
+    max-width: 40%;}
+
+.feature-section .row{
+	text-align: center;
+}
+
+.submit-section .part-one .custom-form .inpur-custom .label-custom {
+    height: 41px;
+}
+
+.submit-section .part-one .custom-form .btn-custom {
+ 
+    font-size: 15px;
+    height: 41px;
+    width: 90px;
+}
+.submit-section .part-one .custom-form .inpur-custom {
+    width: 50%;
+}
+.form-row {
+   
+    justify-content: center;}
+    .submit-section .footer-section .nav {
+  
+    text-align: center;
+}
+
+}
+
