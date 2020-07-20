@@ -135,7 +135,7 @@ header {
 
   header {
     padding: 5px 0;
-    height: 70vh; }
+    }
 
   .feature-section h1 {
     font-weight: 600;
@@ -152,7 +152,7 @@ header {
 @media (max-width: 591px) {
   header {
     padding: 5px 0;
-    height: 85vh; }
+     }
 
   header .navbar-light .navbar-nav li {
     font-size: 17px;
